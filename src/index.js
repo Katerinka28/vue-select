@@ -15,6 +15,6 @@ export const vfmPlugin = pluginOptions => ({
   }
 })
 
-vfmPlugin.install = installVfm
+// vfmPlugin.install = installVfm
 
 export default vfmPlugin
