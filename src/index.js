@@ -3,7 +3,7 @@ import mixins from './mixins/index'
 
 function install(Vue, {
   } = {}) {
-    Vue.component('v-select', VueSelect);
+    Vue.component('VueSelect', VueSelect);
   }
 export default install
 export { VueSelect, mixins }
