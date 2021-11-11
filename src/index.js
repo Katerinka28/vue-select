@@ -6,7 +6,7 @@ const _componentName = 'VueSelect'
 
 const installVfm = (Vue, options = {}) => {
  
-  Vue.component(_componentName, VueSelect)
+  Vue.component('VueSelect', VueSelect)
 }
 export const vfmPlugin = pluginOptions => ({
   install(Vue, options) {
@@ -16,5 +16,5 @@ export const vfmPlugin = pluginOptions => ({
 })
 
 vfmPlugin.install = installVfm
-console.log(vfmPlugin, '**********')
+
 export default vfmPlugin
