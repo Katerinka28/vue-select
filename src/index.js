@@ -29,4 +29,5 @@ export const vfmPlugin = pluginOptions => ({
 })
 
 vfmPlugin.install = installVfm
+console.log(vfmPlugin, '**********')
 export default vfmPlugin
