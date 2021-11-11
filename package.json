@@ -9,7 +9,7 @@
     "test": "tests"
   },
   "private": false,
-  "main": "dist/vue-select.js",
+  "main": "src/index.js",
   "license": "MIT",
   "prepare": "npm run build",
   "scripts": {
