@@ -1,5 +1,9 @@
 import VueSelect from './components/Select.vue'
 import mixins from './mixins/index'
 
-export default VueSelect
+function install(Vue, {
+  } = {}) {
+    Vue.component('v-select', vSelect);
+  }
+export default install
 export { VueSelect, mixins }
