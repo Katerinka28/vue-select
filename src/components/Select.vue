@@ -151,6 +151,7 @@ export default {
   components: { ...childComponents },
 
   directives: { appendToBody },
+  name: 'VueSelect',
 
   mixins: [pointerScroll, typeAheadPointer, ajax],
 
